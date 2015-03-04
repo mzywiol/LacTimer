@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #222;
+	color: #eee;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+	font-size: 200%;
+	height: 100%;
+}
+
+div#sessions {
+	width: 100%;
+	height: 20%;
+}
+
+ul#sessionList {
+	display: table;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+	font-size: 150%;
+}
+
+ul#sessionList li {
+	display: table-cell;
+}
+
+ul#sessionList li p{
+	display: block;
+	padding: 10%;
+	margin: 0 5;
+	border: solid 3px #222;
+}
+
+ul#sessionList li.future p{
+	background-color: #766;
+}
+
+ul#sessionList li.current p{
+	background-color: #060;
+	border: solid 3px white;
+}
+
+ul#sessionList li.past p{
+	background-color: #505;
+	text-decoration: line-through;
+}
+
+div#div_timer {
+	width: 100%;
+	height: 50%;
+}
+
+div#div_timer h1 {
+	font-weight: bold;
+	font-size: 400%;
+	vertical-align: middle;
+}
+
+h1.positive {
+	color: #0a0;
+}
+
+h1.negative {
+	color: #c00;
+}
+
+div#controls {
+	width: 100%;
+	height: 30%;
+}
+
+div#controls a {
+	color: #eee;
+	background: #299;
+	text-decoration: none;
+	font-size: 250%;
+	font-weight: bold;
+	padding: 20 20 20 20;
+}
